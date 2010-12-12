@@ -1,0 +1,204 @@
+TSudokuSolverRB
+v7
+r0
+t313777039.254476
+cCheck dependencies
+cProcessInfoPlistFile /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/SudokuSolverRB.app/Contents/Resources/rb_main.rb rb_main.rb
+cCompileXIB /Users/saul/Documents/projects/SudokuSolverRB/English.lproj/MainMenu.xib
+cCpResource build/Debug/SudokuSolverRB.app/Contents/Resources/SudokuPuzzleWindowController.rb SudokuPuzzleWindowController.rb
+cCpResource build/Debug/SudokuSolverRB.app/Contents/Resources/SudokuSolverAppDelegate.rb SudokuSolverAppDelegate.rb
+cCompileC build/SudokuSolverRB.build/Debug/SudokuSolverRB.build/Objects-normal/x86_64/main.o /Users/saul/Documents/projects/SudokuSolverRB/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/MacOS/SudokuSolverRB normal x86_64
+cTouch /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
+c000000004B732500000000000000005F
+t1265837312
+s95
+
+N/Library/Frameworks/MacRuby.framework/MacRuby
+c000000004CFDFA71000000000169F168
+t1291713137
+s23720296
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/saul/Documents/projects/SudokuSolverRB/English.lproj/InfoPlist.strings
+c000000004CFD2DB800000000000000DC
+t1291660728
+s220
+
+N/Users/saul/Documents/projects/SudokuSolverRB/English.lproj/MainMenu.xib
+c000000004CFDCC990000000000127330
+t1291701401
+s1209136
+
+N/Users/saul/Documents/projects/SudokuSolverRB/SudokuPuzzleWindowController.rb
+c000000004CFEE5E90000000000000BC5
+t1291773417
+s3013
+
+N/Users/saul/Documents/projects/SudokuSolverRB/SudokuSolverAppDelegate.rb
+c000000004CFD308A00000000000000B9
+t1291661450
+s185
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app
+t1292084239
+s102
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Info.plist
+t1292084237
+s790
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/MacOS/SudokuSolverRB
+t1292084239
+s9088
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/PkgInfo
+t1292084237
+s8
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1292084237
+s220
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources/English.lproj/MainMenu.nib
+t1292084239
+s317951
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources/SudokuPuzzleWindowController.rb
+t1292084237
+s3013
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources/SudokuSolverAppDelegate.rb
+t1292084237
+s185
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources/rb_main.rb
+t1292084237
+s629
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/SudokuSolverRB.build/Debug/SudokuSolverRB.build/Objects-normal/x86_64/SudokuSolverRB.LinkFileList
+c000000004CFD5A180000000000000081
+t1291672088
+s129
+
+N/Users/saul/Documents/projects/SudokuSolverRB/build/SudokuSolverRB.build/Debug/SudokuSolverRB.build/Objects-normal/x86_64/main.o
+t1291672093
+s5364
+
+N/Users/saul/Documents/projects/SudokuSolverRB/main.m
+c000000004CFD2DB80000000000000106
+t1291660728
+s262
+i<MacRuby/MacRuby.h>
+
+N/Users/saul/Documents/projects/SudokuSolverRB/rb_main.rb
+c000000004CFEE4140000000000000275
+t1291772948
+s629
+
+NInfo.plist
+c000000004CFD2DB8000000000000034B
+t1291660728
+s843
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313777037#313777037#0(0"0(0#1#0"8686402816#0"0#
+
+CCompileC build/SudokuSolverRB.build/Debug/SudokuSolverRB.build/Objects-normal/x86_64/main.o /Users/saul/Documents/projects/SudokuSolverRB/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313364889.864083
+e313364893.384331
+r1
+xCompileC
+xbuild/SudokuSolverRB.build/Debug/SudokuSolverRB.build/Objects-normal/x86_64/main.o
+x/Users/saul/Documents/projects/SudokuSolverRB/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/saul/Documents/projects/SudokuSolverRB/main.m313364889#313364893#0(0"0(0#0#52"/Users/saul/Documents/projects/SudokuSolverRB/main.m8616269280#1099"    cd /Users/saul/Documents/projects/SudokuSolverRB    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/saul/Documents/projects/SudokuSolverRB/build/SudokuSolverRB.build/Debug/SudokuSolverRB.build/SudokuSolverRB.hmap -F/Users/saul/Documents/projects/SudokuSolverRB/build/Debug -F/Users/saul/Documents/projects/SudokuSolverRB/build/Debug -I/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/include -I/Users/saul/Documents/projects/SudokuSolverRB/build/SudokuSolverRB.build/Debug/SudokuSolverRB.build/DerivedSources/x86_64 -I/Users/saul/Documents/projects/SudokuSolverRB/build/SudokuSolverRB.build/Debug/SudokuSolverRB.build/DerivedSources -c /Users/saul/Documents/projects/SudokuSolverRB/main.m -o /Users/saul/Documents/projects/SudokuSolverRB/build/SudokuSolverRB.build/Debug/SudokuSolverRB.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/saul/Documents/projects/SudokuSolverRB/English.lproj/MainMenu.xib
+s313777037.870162
+e313777039.126763
+r1
+xCompileXIB
+x/Users/saul/Documents/projects/SudokuSolverRB/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib313777037#313777039#0(0"0(0#0#72"/Users/saul/Documents/projects/SudokuSolverRB/English.lproj/MainMenu.xib8685845120#392"    cd /Users/saul/Documents/projects/SudokuSolverRB    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources/English.lproj/MainMenu.nib /Users/saul/Documents/projects/SudokuSolverRB/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCopyStringsFile /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s313777037.868576
+e313777038.004730
+r1
+xCopyStringsFile
+x/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings313777037#313777038#0(0"0(0#0#77"/Users/saul/Documents/projects/SudokuSolverRB/English.lproj/InfoPlist.strings8685914528#387"    cd /Users/saul/Documents/projects/SudokuSolverRB    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/SudokuSolverRB.app/Contents/Resources/SudokuPuzzleWindowController.rb SudokuPuzzleWindowController.rb
+s313777037.873458
+e313777037.973731
+r1
+xCpResource
+xbuild/Debug/SudokuSolverRB.app/Contents/Resources/SudokuPuzzleWindowController.rb
+xSudokuPuzzleWindowController.rb
+lSLF07#2@36"Copy SudokuPuzzleWindowController.rb313777037#313777037#0(0"0(0#0#77"/Users/saul/Documents/projects/SudokuSolverRB/SudokuPuzzleWindowController.rb8685802784#389"    cd /Users/saul/Documents/projects/SudokuSolverRB    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/saul/Documents/projects/SudokuSolverRB/SudokuPuzzleWindowController.rb /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources0#
+
+CCpResource build/Debug/SudokuSolverRB.app/Contents/Resources/SudokuSolverAppDelegate.rb SudokuSolverAppDelegate.rb
+s313777037.874524
+e313777037.974775
+r1
+xCpResource
+xbuild/Debug/SudokuSolverRB.app/Contents/Resources/SudokuSolverAppDelegate.rb
+xSudokuSolverAppDelegate.rb
+lSLF07#2@31"Copy SudokuSolverAppDelegate.rb313777037#313777037#0(0"0(0#0#72"/Users/saul/Documents/projects/SudokuSolverRB/SudokuSolverAppDelegate.rb8685742400#384"    cd /Users/saul/Documents/projects/SudokuSolverRB    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/saul/Documents/projects/SudokuSolverRB/SudokuSolverAppDelegate.rb /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources0#
+
+CCpResource build/Debug/SudokuSolverRB.app/Contents/Resources/rb_main.rb rb_main.rb
+s313777037.869483
+e313777037.973494
+r1
+xCpResource
+xbuild/Debug/SudokuSolverRB.app/Contents/Resources/rb_main.rb
+xrb_main.rb
+lSLF07#2@15"Copy rb_main.rb313777037#313777037#0(0"0(0#0#56"/Users/saul/Documents/projects/SudokuSolverRB/rb_main.rb8685891520#368"    cd /Users/saul/Documents/projects/SudokuSolverRB    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/saul/Documents/projects/SudokuSolverRB/rb_main.rb /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Resources0#
+
+CLd /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/MacOS/SudokuSolverRB normal x86_64
+s313777039.127079
+e313777039.248781
+r1
+xLd
+x/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/MacOS/SudokuSolverRB
+xnormal
+xx86_64
+lSLF07#2@111"Link /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/MacOS/SudokuSolverRB313777039#313777039#0(0"0(0#0#0"8687179808#691"    cd /Users/saul/Documents/projects/SudokuSolverRB    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/saul/Documents/projects/SudokuSolverRB/build/Debug -F/Users/saul/Documents/projects/SudokuSolverRB/build/Debug -F/Users/saul/Documents/projects/SudokuSolverRB/build/Debug -filelist /Users/saul/Documents/projects/SudokuSolverRB/build/SudokuSolverRB.build/Debug/SudokuSolverRB.build/Objects-normal/x86_64/SudokuSolverRB.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/MacOS/SudokuSolverRB0#
+
+CProcessInfoPlistFile /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Info.plist Info.plist
+s313777037.863951
+e313777037.868498
+r1
+xProcessInfoPlistFile
+x/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist313777037#313777037#0(0"0(0#0#56"/Users/saul/Documents/projects/SudokuSolverRB/Info.plist8686394400#337"    cd /Users/saul/Documents/projects/SudokuSolverRB    builtin-infoPlistUtility Info.plist -genpkginfo /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app/Contents/Info.plist0#
+
+CTouch /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app
+s313777039.248882
+e313777039.254388
+r1
+xTouch
+x/Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app
+lSLF07#2@82"Touch /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app313777039#313777039#0(0"0(0#0#0"8687037248#152"    cd /Users/saul/Documents/projects/SudokuSolverRB    /usr/bin/touch -c /Users/saul/Documents/projects/SudokuSolverRB/build/Debug/SudokuSolverRB.app0#
+
