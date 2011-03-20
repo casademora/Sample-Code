@@ -2,7 +2,7 @@
 *.swp
 *~.nib
 
-**/build/**
+**/build
 
 *.pbxuser
 *.perspective
@@ -13,3 +13,5 @@
 
 *.mode1v3
 *.mode2v3
+
+build/
