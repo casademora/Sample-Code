@@ -58,6 +58,12 @@
 		C76271B61335AE3F00F868B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E42FB307B3F0F600E4EEF1 /* CoreData.framework */; };
 		C76271B71335AE4100F868B8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97324FDCFA39411CA2CEA /* AppKit.framework */; };
 		C76272861335AF9600F868B8 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76272851335AF9600F868B8 /* MacRuby.framework */; };
+		C76272C41335B4A900F868B8 /* SampleAppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = C76272C31335B4A900F868B8 /* SampleAppDelegate.rb */; };
+		C76272DF1335B50700F868B8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C76272DE1335B50700F868B8 /* MainWindow.xib */; };
+		C76272EE1335B58100F868B8 /* MainWindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = C76272ED1335B58100F868B8 /* MainWindowController.rb */; };
+		C76273031335B7C200F868B8 /* SampleDataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = C76273021335B7C200F868B8 /* SampleDataModel.xcdatamodel */; };
+		C76273091335B83E00F868B8 /* _Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C76273081335B83E00F868B8 /* _Person.m */; };
+		C762730C1335B83E00F868B8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C762730B1335B83E00F868B8 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -102,6 +108,15 @@
 		C762700F1335AD0900F868B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		C76272851335AF9600F868B8 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 		C76272A61335B1FB00F868B8 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C76272C31335B4A900F868B8 /* SampleAppDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SampleAppDelegate.rb; sourceTree = "<group>"; };
+		C76272DE1335B50700F868B8 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C76272ED1335B58100F868B8 /* MainWindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MainWindowController.rb; sourceTree = "<group>"; };
+		C76273021335B7C200F868B8 /* SampleDataModel.xcdatamodel */ = {isa = PBXFileReference; comments = "xmod
+"; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = SampleDataModel.xcdatamodel; sourceTree = "<group>"; };
+		C76273071335B83D00F868B8 /* _Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _Person.h; sourceTree = "<group>"; };
+		C76273081335B83E00F868B8 /* _Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _Person.m; sourceTree = "<group>"; };
+		C762730A1335B83E00F868B8 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C762730B1335B83E00F868B8 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +138,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C76272C31335B4A900F868B8 /* SampleAppDelegate.rb */,
+				C76272ED1335B58100F868B8 /* MainWindowController.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -166,6 +183,7 @@
 		29B97314FDCFA39411CA2CEA /* CoreDataSample */ = {
 			isa = PBXGroup;
 			children = (
+				C76273041335B7CE00F868B8 /* Model */,
 				C7626E581335AD0800F868B8 /* activerecord-for-core-data */,
 				172754AE1075979200D0347B /* Tests */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -189,6 +207,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C76272DE1335B50700F868B8 /* MainWindow.xib */,
 				2BFA9DA510CDF852007972A1 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -226,6 +245,26 @@
 				C762700F1335AD0900F868B8 /* README.md */,
 			);
 			path = "activerecord-for-core-data";
+			sourceTree = "<group>";
+		};
+		C76273041335B7CE00F868B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C76273021335B7C200F868B8 /* SampleDataModel.xcdatamodel */,
+				C76273061335B83D00F868B8 /* SampleDataModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C76273061335B83D00F868B8 /* SampleDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C76273071335B83D00F868B8 /* _Person.h */,
+				C76273081335B83E00F868B8 /* _Person.m */,
+				C762730A1335B83E00F868B8 /* Person.h */,
+				C762730B1335B83E00F868B8 /* Person.m */,
+			);
+			path = SampleDataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +324,9 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
+				C76272C41335B4A900F868B8 /* SampleAppDelegate.rb in Resources */,
+				C76272DF1335B50700F868B8 /* MainWindow.xib in Resources */,
+				C76272EE1335B58100F868B8 /* MainWindowController.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +386,9 @@
 				C762711F1335AD0900F868B8 /* NSManagedObjectModel+ActiveRecord.m in Sources */,
 				C76271201335AD0900F868B8 /* NSPersistentStore+ActiveRecord.m in Sources */,
 				C76271211335AD0900F868B8 /* NSPersistentStoreCoordinator+ActiveRecord.m in Sources */,
+				C76273031335B7C200F868B8 /* SampleDataModel.xcdatamodel in Sources */,
+				C76273091335B83E00F868B8 /* _Person.m in Sources */,
+				C762730C1335B83E00F868B8 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
