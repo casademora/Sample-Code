@@ -24,7 +24,7 @@ class MainWindowController < NSWindowController
         
         person.first_name = "first name: #{count}"
         person.last_name = "last name: #{count}"
-        person.age = round(rand * 100)
+        person.age = (rand * 100).round
         
         self.number_label.stringValue = count.to_s
     end
