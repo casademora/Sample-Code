@@ -18,13 +18,13 @@ class MainWindowController < NSWindowController
     def createObject(sender)
         person = Person.createEntity                #magicalrecord helper
         
-        NSManagedObjectContext.defaultContext.save  #magicalrecord helper
-        
-        count = Person.numberOfEntities
-        
         person.first_name = "first name: #{count}"
         person.last_name = "last name: #{count}"
         person.age = (rand * 100).round
+        
+        NSManagedObjectContext.defaultContext.save  #magicalrecord helper
+        
+        count = Person.numberOfEntities
         
         self.number_label.stringValue = count.to_s
     end
