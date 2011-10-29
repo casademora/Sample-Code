@@ -7,28 +7,28 @@
 class MainWindowController < NSWindowController
 
     attr_accessor :number_label
-    
+
     def windowDidLoad
-    
+
         puts "Window: #{self.window}"
         self.window.title = "My Sample Core Data Application"
-        
+
     end
-    
+
     def createObject(sender)
         person = Person.createEntity                #magicalrecord helper
-        
+
         person.first_name = "first name: #{count}"
         person.last_name = "last name: #{count}"
         person.age = (rand * 100).round
-        
+
         NSManagedObjectContext.defaultContext.save  #magicalrecord helper
-        
+
         count = Person.numberOfEntities
-        
+
         self.number_label.stringValue = count.to_s
     end
-    
+
     def managedObjectContext
         NSManagedObjectContext.defaultContext
     end

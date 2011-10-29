@@ -14,5 +14,5 @@ class SampleAppDelegate
         wc.window.makeKeyAndOrderFront(self)
 
     end
-    
+
 end
