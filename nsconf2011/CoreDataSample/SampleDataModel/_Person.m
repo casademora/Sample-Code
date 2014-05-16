@@ -28,7 +28,7 @@
 
 + (NSSet *)keyPathsForValuesAffectingValueForKey:(NSString *)key {
 	NSSet *keyPaths = [super keyPathsForValuesAffectingValueForKey:key];
-	
+
 	if ([key isEqualToString:@"ageValue"]) {
 		NSSet *affectingKey = [NSSet setWithObject:@"age"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];

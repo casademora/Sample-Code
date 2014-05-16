@@ -15,9 +15,9 @@ class SudokuPuzzleWindowController < NSWindowController
     attr_accessor :cell_4_0, :cell_4_1, :cell_4_2, :cell_4_3, :cell_4_4, :cell_4_5, :cell_4_6, :cell_4_7, :cell_4_8
     attr_accessor :cell_5_0, :cell_5_1, :cell_5_2, :cell_5_3, :cell_5_4, :cell_5_5, :cell_5_6, :cell_5_7, :cell_5_8
     attr_accessor :cell_6_0, :cell_6_1, :cell_6_2, :cell_6_3, :cell_6_4, :cell_6_5, :cell_6_6, :cell_6_7, :cell_6_8
-    attr_accessor :cell_7_0, :cell_7_1, :cell_7_2, :cell_7_3, :cell_7_4, :cell_7_5, :cell_7_6, :cell_7_7, :cell_7_8 
-    attr_accessor :cell_8_0, :cell_8_1, :cell_8_2, :cell_8_3, :cell_8_4, :cell_8_5, :cell_8_6, :cell_8_7, :cell_8_8 
-    
+    attr_accessor :cell_7_0, :cell_7_1, :cell_7_2, :cell_7_3, :cell_7_4, :cell_7_5, :cell_7_6, :cell_7_7, :cell_7_8
+    attr_accessor :cell_8_0, :cell_8_1, :cell_8_2, :cell_8_3, :cell_8_4, :cell_8_5, :cell_8_6, :cell_8_7, :cell_8_8
+
     def puzzle
         cells = []
         0.upto(8) do |x|
@@ -49,7 +49,7 @@ class SudokuPuzzleWindowController < NSWindowController
         state[x][y] = 0
         false
     end
-    
+
     def valid_cell?(state, x, y)
       # check in col and row
       0.upto(8) do |i|
@@ -68,11 +68,11 @@ class SudokuPuzzleWindowController < NSWindowController
 
       true
     end
-    
+
     def solve(sender)
         pp puzzle
         $count = 0
-        next_state(@puzzle, 0, 0) 
+        next_state(@puzzle, 0, 0)
         pp "Solved in #{$count} steps"
         pp puzzle
     end
